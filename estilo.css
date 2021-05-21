@@ -1,0 +1,107 @@
+
+      .contenedor{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+      }
+      .inicio{
+        background-color: #6610f2;
+      }
+      .portafolio{
+        background-color: #304ffe;
+      }
+      .contacto{
+        background-color: #474747;
+      }
+      .hola{       
+        height: 100%;
+        width: 75%;
+        justify-content: center;
+        background-color: white;
+      }
+      .logopri{
+        height: 48px;
+        width: 48px;
+        border-radius: 64px;
+      }
+      .margintext{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .titprin{
+        margin-top: 12px;
+      }
+      .titsec{
+        margin-top: 36px;
+      }
+      .imagencuerpo1, .imagencuerpo11, .imagencuerpo111{
+        height: 240px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+      }
+      .imagencuerpo2{
+        height: 280px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+      }
+      .imagencuerpo22{
+        height: 320px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+      }
+      .imagencuerpo3, .imagencuerpo33, .imagencuerpo333{
+        height: 280px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+      }
+      .footer{
+        background-color: black;
+        color: gray;
+      }
+      .logo{
+        height: 32px;
+        border-radius: 64px;
+      }
+      .img{
+        height: 112px;
+        border-radius: 72px;
+      }
+      .d-block{
+        height: 360px;
+      }
+      @media (max-width: 768px){
+        .d-block{
+          height: 180px;
+        }
+        .imagencuerpo1{
+          height: 96px;
+          width: 100%;
+        }
+        .imagencuerpo11{
+          height: 124px;
+          width: 100%;
+        }
+        .imagencuerpo111{
+          height: 172px;
+          width: 100%;
+        }
+        .imagencuerpo2, .imagencuerpo22{
+          height: 184px;
+          width: 100%;
+        }
+        .imagencuerpo3{
+          height: 96px;
+          width: 100%;
+        }
+        .imagencuerpo33{
+          height: 172px;
+          width: 100%;
+        }
+        .imagencuerpo333{
+          height: 152px;
+          width: 100%;
+        }
+      }

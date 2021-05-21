@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>Redes TCP/IP</title>
+    <link rel="shortcut icon" href="https://cdn6.aptoide.com/imgs/c/d/6/cd622328fcdf41a4dceaaede5e90bc74_icon.png" class="logopri">
+    <link rel="stylesheet" href="estilo.css">
+
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <router-link class="navbar-brand" to="/">
+                <img src="https://cdn6.aptoide.com/imgs/c/d/6/cd622328fcdf41a4dceaaede5e90bc74_icon.png" class="logopri">
+              </router-link>
+            </div>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <router-link to="/" class="nav-link" aria-current="page">Tcp/Ip</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/capas" class="nav-link">Capas</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link to="/versiones" class="nav-link">Versiones</router-link>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </nav>
+      <router-view></router-view>
+      <footer>
+        <div class="container-fluid footer">
+          <div class="row text-center items-center">
+            <div class="col-md-4 align-self-center">
+              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ffc59456-c0fb-490a-bbbb-a9fa3a44c729/dazejwf-879022e7-ff49-4095-ac6d-6b2f3eff780a.png/v1/fill/w_800,h_800,q_80,strp/logo_unefa_color_by_archivosvariados_dazejwf-fullview.jpg" class="img">
+              <h3>Web informativa sobre Tcp/Ip</h3>
+              <p>
+                Brandon Aurelio Vera Omaña <br>
+                Ingnieria de sistemas VII <br>
+                Redes
+              </p>
+            </div>
+            <div class="col-md-4 align-self-center">
+              <h4 class="p-3">Contacto</h4>
+              <a href=""><img src="https://assets.stickpng.com/thumbs/584ac2d03ac3a570f94a666d.png" class="logo"></a>
+              <a href=""><img src="https://images-na.ssl-images-amazon.com/images/I/51NZWYgp1YL._AC_SY450_.jpg" class="logo"></a>
+              <a href=""><img src="https://image.flaticon.com/icons/png/512/124/124034.png" class="logo"></a>
+              <a href=""><img src="https://image.flaticon.com/icons/png/512/281/281769.png" class="logo"></a>
+            </div>
+            <div class="col-md-4 align-self-center">
+              <router-link to="/" class="nav-link" aria-current="page">Tcp/Ip</router-link>
+              <router-link to="/capas" class="nav-link">Capas</router-link>
+              <router-link to="/versiones" class="nav-link">Versiones</router-link>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="prueba.js"></script>
+
+  </body>
+</html>
