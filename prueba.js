@@ -125,19 +125,29 @@
                   </div>
                 </div
               </div>
-              <h2>CALCULO DE IPv4</h2>
-              <h5>DIRECCION IP</h5>
-              <form onsubmit="return datos()" method="GET">
-                <input type="number" placeholder="192" id="dir1">
-                <input type="number" placeholder="198" id="dir2">
-                <input type="number" placeholder="1" id="dir3">
-                <input type="number" placeholder="1" id="dir4">
-                <input type="number" placeholder="subredes" id="subr">
-                <button type="submit">Submit</button>
-              </form>
+
+              <div class="d-flex justify-content-center">
+              <div class="card border-info mb-3 mt-3" style="max-width: 18rem;">
+                <div class="card-header text-center">CALCULO DE IPv4</div>
+                <div class="card-body content-center">
+                  <h5 class="card-title text-center">DIRECCION IP</h5><br>
+                  <form onsubmit="return datos()" method="GET">
+                    <input type="number" placeholder="192" id="dir1">
+                    <input type="number" placeholder="168" id="dir2">
+                    <input type="number" placeholder="1" id="dir3">
+                    <input type="number" placeholder="1" id="dir4"><br><br>
+                    <h5 class="card-title text-center">SUBREDES</h5><br>
+                    <input type="number" placeholder="subredes" id="subr"><br><br>
+                    <button type="submit" class="btn btn-success">Calcular</button>
+                  </form>
+                </div>
+              </div>
+              </div>
+
+        
+              </div>
             </div>
-          </div>
-          </div>
+         </div>
         `
       };
 
