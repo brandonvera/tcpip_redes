@@ -114,11 +114,38 @@
         `
       };
 
+      const Calculadora = {
+        template = `
+        <div class="portafolio contenedor">
+            <div class="hola animate__animated animate__backInDown">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.hebergementwebs.com/image/bd/bd5e6d5a7466551ae00284e55fa2e052.jpg/entrega-continua-definicion-ventajas-y-herramientas.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div
+              </div>
+              <h2>CALCULO DE IPv4</h2>
+              <h5>DIRECCION IP</h5>
+              <form onsubmit="return datos()" method="GET">
+                <input type="number" placeholder="192" id="dir1">
+                <input type="number" placeholder="198" id="dir2">
+                <input type="number" placeholder="1" id="dir3">
+                <input type="number" placeholder="1" id="dir4">
+                <input type="number" placeholder="subredes" id="subr">
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        `
+      }
+
       //2 
       const routes = [
         {path: '/', component: Tcpip},
         {path: '/capas', component: Capas},
         {path: '/versiones', component: Versiones}
+        {path: '/calculadora', component: Calculadora}
       ];
 
       //3
