@@ -115,8 +115,8 @@
       };
 
       const Calculadora = {
-        template = `
-        <div class="portafolio contenedor">
+        template: `
+          <div class="portafolio contenedor">
             <div class="hola animate__animated animate__backInDown">
               <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -137,14 +137,15 @@
               </form>
             </div>
           </div>
+          </div>
         `
-      }
+      };
 
       //2 
       const routes = [
         {path: '/', component: Tcpip},
         {path: '/capas', component: Capas},
-        {path: '/versiones', component: Versiones}
+        {path: '/versiones', component: Versiones},
         {path: '/calculadora', component: Calculadora}
       ];
 
