@@ -132,12 +132,12 @@
                 <div class="card-body content-center">
                   <h5 class="card-title text-center">DIRECCION IP</h5><br>
                   <form onsubmit="return datos()" method="GET">
-                    <input type="number" placeholder="192" id="dir1">
-                    <input type="number" placeholder="168" id="dir2">
-                    <input type="number" placeholder="1" id="dir3">
-                    <input type="number" placeholder="1" id="dir4"><br><br>
+                    <input type="number" placeholder="192" id="dir1" max="223" min="1">
+                    <input type="number" placeholder="168" id="dir2" max="223" min="0">
+                    <input type="number" placeholder="1" id="dir3" max="223" min="0">
+                    <input type="number" placeholder="1" id="dir4" max="223" min="0"><br><br>
                     <h5 class="card-title text-center">SUBREDES</h5><br>
-                    <input type="number" placeholder="subredes" id="subr"><br><br>
+                    <input type="number" placeholder="subredes" id="subr" max="8" min="1"><br><br>
                     <button type="submit" class="btn btn-success">Calcular</button>
                   </form>
                 </div>
